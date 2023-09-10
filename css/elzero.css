@@ -1260,6 +1260,8 @@ input:focus::placeholder {
   border-radius: 10px;
   text-align: center;
   transition: var(--main-transition);
+  z-index: 1;
+  background-color: white;
 }
 
 .events .info .time .unit:hover,
